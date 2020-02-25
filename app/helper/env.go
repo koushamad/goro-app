@@ -9,7 +9,7 @@ import (
 )
 
 func Env(env string, def string) string {
-	err := godotenv.Load()
+	err := godotenv.Load(Path(".env"))
 	throw.Fatal("Cannot Load Env File", 107, err)
 	if os.Getenv(strings.ToUpper(env)) == "" {
 		return def

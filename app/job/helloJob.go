@@ -8,7 +8,7 @@ import (
 
 func Hello(message message.Message) bool {
 	var name string
-	cache.Get("name", name)
+	cache.Get("name", &name)
 	fmt.Println(message.GetBody())
 	fmt.Println(name)
 	return true

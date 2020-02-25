@@ -9,7 +9,7 @@ var (
 	// rabbit | chanel
 	Queue = map[string]string{
 		"driver":  helper.Env("QUEUE_DRIVER", "chanel"),
-		"workers": helper.Env("QUEUE_WORKERS", ""),
+		"workers": helper.Env("QUEUE_WORKERS", "1"),
 		"traffic": helper.Env("QUEUE_TRAFFIC", ""),
 	}
 
