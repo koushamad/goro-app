@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/koushamad/goro-core/app/helper"
+	"github.com/koushamad/goro-app/app/helper"
 	"github.com/streadway/amqp"
 )
 
