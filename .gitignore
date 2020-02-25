@@ -1,0 +1,5 @@
+.idea/
+storage/log/
+storage/cache/
+/storage/database/
+.env
