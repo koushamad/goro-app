@@ -1,5 +1,6 @@
 .idea/
 storage/log/
 storage/cache/
-/storage/database/
+storage/database/
+vendor/
 .env
