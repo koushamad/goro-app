@@ -2,9 +2,9 @@ package controller
 
 import (
 	"github.com/koushamad/goro-app/app/http/contrroller/resource"
-	"github.com/koushamad/goro/app/exception"
-	"github.com/koushamad/goro/app/http/request"
-	"github.com/koushamad/goro/app/http/response"
+	"github.com/koushamad/goro-core/app/exception"
+	"github.com/koushamad/goro-core/app/http/request"
+	"github.com/koushamad/goro-core/app/http/response"
 	"net/http"
 )
 

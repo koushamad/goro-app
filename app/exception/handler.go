@@ -1,11 +1,11 @@
 package exception
 
 import (
-	"github.com/koushamad/goro/app/exception"
+	"github.com/koushamad/goro-core/app/exception"
 	"net/http"
 )
 
-func Handler(e exception.Exception) (int ,interface{}) {
+func Handler(e exception.Exception) (int, interface{}) {
 	switch e.Code {
 	case 1: // sample
 		return http.StatusOK, nil

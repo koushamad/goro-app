@@ -10,7 +10,7 @@ require (
 	github.com/gin-gonic/gin v1.5.0
 	github.com/jinzhu/gorm v1.9.12
 	github.com/joho/godotenv v1.3.0 // indirect
-	github.com/koushamad/goro v1.0.2
+	github.com/koushamad/goro v1.0.2 // indirect
 	github.com/koushamad/goro-cache v0.0.0-20200225134440-89bb09d3c89f
 	github.com/koushamad/goro-core v0.0.0-20200225134325-e7854f360595
 	github.com/koushamad/goro-db v0.0.0-20200225134400-6ad10680299a

@@ -1,6 +1,6 @@
 package middlewar
 
-import "github.com/koushamad/goro/app/http/middleware"
+import "github.com/koushamad/goro-core/app/http/middleware"
 
 func Api(mid *middleware.Middleware) {
 	mid.Set("type", "api")

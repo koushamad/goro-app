@@ -1,6 +1,6 @@
 package resource
 
-import "github.com/koushamad/goro/app/exception"
+import "github.com/koushamad/goro-core/app/exception"
 
 type (
 	Msg struct {
