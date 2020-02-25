@@ -3,7 +3,7 @@ package config
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"github.com/koushamad/goro/app/helper"
+	"github.com/koushamad/goro-core/app/helper"
 	"time"
 )
 

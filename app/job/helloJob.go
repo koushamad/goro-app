@@ -3,7 +3,7 @@ package job
 import (
 	"fmt"
 	"github.com/koushamad/goro-cache/app/cache"
-	"github.com/koushamad/goro/app/message"
+	"github.com/koushamad/goro-core/app/message"
 )
 
 func Hello(message message.Message) bool {
