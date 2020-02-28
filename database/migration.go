@@ -1,11 +1,11 @@
-package migration
+package database
 
 import (
 	"github.com/koushamad/goro-app/app/model"
 	sql2 "github.com/koushamad/goro-db/app/database/sql"
 )
 
-func Migration()  {
+func Migration() {
 	var migration []interface{}
 
 	migration = append(migration, &model.Hello{})
